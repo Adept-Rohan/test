@@ -23,3 +23,9 @@
  ==> After that I got error in EventLocationRules, the schema was defined to be required but in our json data some of the data in EventLocationRules empty. Once, I changed the required to false all the 8 data were inserted into the collection.
 
 5) When running curl1.data.txt, I get response from my server. But When i run curl2.data.txt it does not provide me response. The socket runs out. 
+
+==> I thought the issue was the long curl request data which might be the cause of the issue. At first, I set the server timeout to 10 minutes so that the server will not be stopped and increase the size of request payload. None of them were helping the solve the issue. 
+
+==> Then, I simply commented out the utility function and just consoled the request.body parameter. The request.body paramter was okay and the requested data has been recieved in server from the curl request. Then i was sure that the problem was casued from the utility function.
+
+
