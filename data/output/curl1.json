@@ -1,0 +1,246 @@
+{
+    "data": [
+        {
+            "_id": "666d14340a633265b88db09a",
+            "name": "prod smoke",
+            "unitOfMeasure": "fixed",
+            "owner": "6417097464396315ed4cf705-driver",
+            "systemGenerated": false,
+            "rules": [
+                {
+                    "type": "GROUP",
+                    "value": "AND",
+                    "isNegated": false,
+                    "children": []
+                }
+            ],
+            "charges": [
+                {
+                    "freeUnits": 0,
+                    "minimumAmount": 0,
+                    "amount": 10,
+                    "_id": {
+                        "_id": "666d14340a633265b88db09b"
+                    }
+                }
+            ],
+            "isActive": true,
+            "autoAdd": true,
+            "fromEvent": null,
+            "toEvent": null,
+            "inEvent": null,
+            "exactEvents": null,
+            "chargeTemplateGroupID": [
+                "666d16f70a633265b88db7a4",
+                "66729ed844d8b882ea14817c"
+            ],
+            "isDeleted": false,
+            "version": 1,
+            "chargeName": "WAITING TIME",
+            "chargeCode": "Waiting time",
+            "percentageOf": [],
+            "vendor": {
+                "name": "All Driver Group",
+                "profileType": "driverGroups/all",
+                "profile": null,
+                "profileGroup": [],
+                "_id": {
+                    "_id": "666d14340a633265b88db09c"
+                }
+            },
+            "eventLocationRule": null,
+            "eventLocationRules": [
+                {
+                    "event": "PULLCONTAINER",
+                    "eventLocation": {
+                        "name": "BNSF RAIL MAIN",
+                        "profileType": "customer",
+                        "profile": {
+                            "name": "BNSF RAIL MAIN",
+                            "city": "Glendale",
+                            "state": "AZ",
+                            "country": "US",
+                            "zipCode": "85302",
+                            "address1": "4324 W Olive Ave",
+                            "address": "4324 W Olive Ave, Glendale, AZ 85302, USA",
+                            "_id": {
+                                "_id": "6417097564396315ed4cf715"
+                            }
+                        },
+                        "profileGroup": [],
+                        "_id": {
+                            "_id": "6417097564396315ed4cf715"
+                        }
+                    },
+                    "eventTime": "arrived",
+                    "_id": {
+                        "_id": "6672bc3944d8b882ea157494"
+                    }
+                },
+                {
+                    "event": "DELIVERLOAD",
+                    "eventLocation": {
+                        "name": "MILESTONE",
+                        "profileType": "customer",
+                        "profile": {
+                            "name": "MILESTONE",
+                            "city": "Fontana",
+                            "state": "CA",
+                            "country": "US",
+                            "zipCode": "92335",
+                            "address1": "10673 Banana Ave testtt,",
+                            "address": "10673 Banana Ave,Fontana,CA 92337,USA",
+                            "_id": {
+                                "_id": "6417097564396315ed4cf721"
+                            }
+                        },
+                        "profileGroup": [],
+                        "_id": {
+                            "_id": "6417097564396315ed4cf721"
+                        }
+                    },
+                    "eventTime": "departed",
+                    "_id": {
+                        "_id": "6672bc3944d8b882ea157497"
+                    }
+                }
+            ],
+            "vendorProfileType": "driverGroups/all",
+            "multiQueryIndex": [
+                "PULLCONTAINER-6417097564396315ed4cf715",
+                "DELIVERLOAD-6417097564396315ed4cf721"
+            ],
+            "fromLegs": null,
+            "fromProfileType": null,
+            "from": null,
+            "fromProfile": null,
+            "toLegs": null,
+            "toProfileType": null,
+            "to": null,
+            "toProfile": null,
+            "moveType": null,
+            "createdAt": "2024-06-15T04:10:28.125Z",
+            "updatedAt": "2024-06-19T11:08:41.113Z"
+        },
+        {
+            "_id": "66729ea37b9e6f064a793030",
+            "name": "prod smoke Copy",
+            "unitOfMeasure": "fixed",
+            "owner": "6417097464396315ed4cf705-driver",
+            "systemGenerated": false,
+            "rules": [
+                {
+                    "type": "GROUP",
+                    "value": "AND",
+                    "isNegated": false,
+                    "children": []
+                }
+            ],
+            "charges": [
+                {
+                    "freeUnits": 0,
+                    "minimumAmount": 0,
+                    "amount": 10,
+                    "_id": {
+                        "_id": "666d14340a633265b88db09b"
+                    }
+                }
+            ],
+            "isActive": true,
+            "autoAdd": true,
+            "fromEvent": null,
+            "toEvent": null,
+            "inEvent": null,
+            "exactEvents": null,
+            "chargeTemplateGroupID": [
+                "666d16f70a633265b88db7a4",
+                "66729ed844d8b882ea14817c"
+            ],
+            "isDeleted": false,
+            "version": 1,
+            "chargeName": "WAITING TIME",
+            "chargeCode": "Waiting time",
+            "percentageOf": [],
+            "vendor": {
+                "name": "All Driver Group",
+                "profileType": "driverGroups/all",
+                "profile": null,
+                "profileGroup": [],
+                "_id": {
+                    "_id": "666d14340a633265b88db09c"
+                }
+            },
+            "eventLocationRule": null,
+            "eventLocationRules": [
+                {
+                    "eventLocation": {
+                        "name": "BNSF RAIL MAIN",
+                        "profileType": "customer",
+                        "profile": {
+                            "name": "BNSF RAIL MAIN",
+                            "city": "Glendale",
+                            "state": "AZ",
+                            "country": "US",
+                            "zipCode": "85302",
+                            "address1": "4324 W Olive Ave",
+                            "address": "4324 W Olive Ave, Glendale, AZ 85302, USA",
+                            "_id": {
+                                "_id": "6417097564396315ed4cf715"
+                            }
+                        },
+                        "profileGroup": [],
+                        "_id": {
+                            "_id": "6417097564396315ed4cf715"
+                        }
+                    },
+                    "eventTime": "arrived",
+                    "_id": {
+                        "_id": "6672bc1f44d8b882ea157330"
+                    }
+                },
+                {
+                    "eventLocation": {
+                        "name": "MILESTONE",
+                        "profileType": "customer",
+                        "profile": {
+                            "name": "MILESTONE",
+                            "city": "Fontana",
+                            "state": "CA",
+                            "country": "US",
+                            "zipCode": "92335",
+                            "address1": "10673 Banana Ave testtt,",
+                            "address": "10673 Banana Ave,Fontana,CA92337,USA",
+                            "_id": {
+                                "_id": "6417097564396315ed4cf721"
+                            }
+                        },
+                        "profileGroup": [],
+                        "_id": {
+                            "_id": "6417097564396315ed4cf721"
+                        }
+                    },
+                    "eventTime": "departed",
+                    "_id": {
+                        "_id": "6672bc1f44d8b882ea157333"
+                    }
+                }
+            ],
+            "vendorProfileType": "driverGroups/all",
+            "multiQueryIndex": [
+                "6417097564396315ed4cf715",
+                "6417097564396315ed4cf721"
+            ],
+            "fromLegs": null,
+            "fromProfileType": null,
+            "from": null,
+            "fromProfile": null,
+            "toLegs": null,
+            "toProfileType": null,
+            "to": null,
+            "toProfile": null,
+            "moveType": null,
+            "createdAt": "2024-06-19T09:02:27.085Z",
+            "updatedAt": "2024-06-19T11:08:15.634Z"
+        }
+    ]
+}
