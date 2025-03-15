@@ -8,7 +8,6 @@ const PORT = process.env.PORT || 3000;
 connectDB().then(() => {
   app.listen(PORT, async () => {
     console.log(`⚡️[server]: Server is running on PORT:${PORT}`);
-    console.log('connected database')
     await ChargeTemplateModel.deleteMany({})
     insertData()
 
